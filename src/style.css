@@ -5,6 +5,7 @@
 
 h1 {
   font-family: var(--font-header);
+  font-size: 56px;
 }
 
 p {
