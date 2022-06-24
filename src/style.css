@@ -1,13 +1,70 @@
 :root {
   --font-header: "Poppins", sans-serif;
   --font-body: "Open Sans", sans-serif;
+  --color-primery: #ffad01;
+  --color-gradient: conic-gradient(
+    from 211.23deg at 76.22% 7.84%,
+    #202020 0deg,
+    #000000 360deg
+  );
+  --color-text: #1d1d1d;
 }
 
-h1 {
+body {
+  display: block;
+  margin: 0 auto;
+  max-width: 1160px;
+  font-family: var(--font-body);
+}
+
+h1,
+h2 {
   font-family: var(--font-header);
-  font-size: 56px;
+  font-weight: 400;
+  line-height: 96px;
+  font-size: 64px;
 }
 
 p {
   font-family: var(--font-body);
+  font-weight: 400;
+  line-height: 26px;
+  font-size: 18px;
+}
+
+.main-header {
+  margin-top: 154px;
+  text-align: left;
+  margin-bottom: 8px;
+}
+
+.main-header p {
+  margin-bottom: 48px;
+  max-width: 433px;
+}
+
+.main-header a {
+  padding: 16px 32px;
+  color: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.link-hire a {
+  background-color: var(--color-primery);
+  margin-right: 16px;
+}
+.link-hire a:hover {
+  background-color: #f57701;
+  transition: all 200ms ease-in-out;
+}
+.link-portfolio a {
+  background: var(--color-gradient);
+}
+.link-portfolio a:hover {
+  border: solid 1px #202020;
+  background: white;
+  color: var(--color-text);
+  font-weight: 400px;
+  transition: all 200ms ease-in-out;
 }
