@@ -15,6 +15,7 @@ body {
   margin: 0 auto;
   max-width: 1160px;
   font-family: var(--font-body);
+  color: var(--color-text);
 }
 
 h1,
@@ -32,6 +33,28 @@ p {
   font-size: 18px;
 }
 
+.container-fluid {
+  max-width: 1160px;
+}
+.navbar-brand {
+  color: var(--color-primery) !important;
+}
+.navbar-collapse {
+  padding-left: 645px;
+}
+.link-navbar {
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid var(--color-primery);
+  border-radius: 4px;
+  padding: 8px 16px;
+  display: block;
+  margin: 0 auto;
+}
+.link-navbar:hover {
+  color: var(--color-primery);
+  transition: all 200ms ease-in-out;
+}
 .main-header {
   margin-top: 154px;
   text-align: left;
@@ -50,21 +73,25 @@ p {
   text-decoration: none;
 }
 
-.link-hire a {
+.link-hire {
   background-color: var(--color-primery);
   margin-right: 16px;
 }
-.link-hire a:hover {
+.link-hire:hover {
   background-color: #f57701;
   transition: all 200ms ease-in-out;
 }
-.link-portfolio a {
+.link-portfolio {
   background: var(--color-gradient);
 }
-.link-portfolio a:hover {
+.link-portfolio:hover {
   border: solid 1px #202020;
   background: white;
   color: var(--color-text);
   font-weight: 400px;
   transition: all 200ms ease-in-out;
+}
+
+.img-first-screen {
+  padding-top: 140px;
 }
