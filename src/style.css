@@ -132,20 +132,20 @@ p {
   margin-bottom: 8px;
 }
 
-.therd-screen {
+.third-screen {
   margin-top: 190px;
 }
 
-.therd-screen h2 {
+.third-screen h2 {
   margin-bottom: 32px;
 }
 
-.therd-screen .progress {
+.third-screen .progress {
   margin-top: 8px;
   margin-bottom: 32px;
 }
 
-.therd-screen .ux-design {
+.third-screen .ux-design {
   margin-right: 10px;
   text-align: center;
   padding: 52px 26px 52px 25px;
@@ -154,12 +154,12 @@ p {
   border-radius: 8px;
 }
 
-.therd-screen .ux-design p {
+.third-screen .ux-design p {
   padding-top: 16px;
   max-width: 224px;
 }
 
-.therd-screen .graphic-design {
+.third-screen .graphic-design {
   text-align: center;
   padding: 52px 16px 52px 17px;
   background: var(--color-gradient);
@@ -167,7 +167,7 @@ p {
   border-radius: 8px;
 }
 
-.therd-screen .graphic-design p {
+.third-screen .graphic-design p {
   padding-top: 16px;
   max-width: 242px;
 }
