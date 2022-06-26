@@ -143,6 +143,7 @@ p {
 .third-screen .progress {
   margin-top: 8px;
   margin-bottom: 32px;
+  width: 520px;
 }
 
 .third-screen .ux-design {
@@ -173,7 +174,7 @@ p {
 }
 
 .front-end {
-  margin-top: 20px;
+  margin: 20px -12px 0 -12px;
   background: var(--color-gradient);
   color: #fff;
   border-radius: 8px;
@@ -184,15 +185,19 @@ p {
   padding: 75px;
 }
 .front-end .front-end-group {
-  padding-top: 25px;
+  padding-top: 50px;
+  padding-right: 16px;
 }
 .front-end .front-end-group p {
   text-align: center;
   font-size: 14px;
 }
-.front-end .front-end-icon {
+.front-end .front-end-icon1,
+.front-end-icon2,
+.front-end-icon3 {
   display: block;
   margin: 0 auto;
+  text-align: center;
 }
 
 @media (max-width: 1000px) {
