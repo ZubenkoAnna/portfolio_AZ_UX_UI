@@ -84,22 +84,24 @@ p {
   max-width: 433px;
 }
 
-.main-header a {
+.link-hire {
   padding: 16px 32px;
   color: #fff;
   border-radius: 4px;
   text-decoration: none;
-}
-
-.link-hire {
   background-color: var(--color-primery);
   margin-right: 16px;
 }
 .link-hire:hover {
   background-color: #f57701;
+  color: #fff;
   transition: all 200ms ease-in-out;
 }
 .link-portfolio {
+  padding: 16px 32px;
+  color: #fff;
+  border-radius: 4px;
+  text-decoration: none;
   background: var(--color-gradient);
 }
 .link-portfolio:hover {
@@ -200,6 +202,33 @@ p {
   text-align: center;
 }
 
+.fourth-screen {
+  padding-top: 190px;
+}
+
+.fourth-screen h2 {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.fourth-screen .sun-app {
+  padding-right: 20px;
+  border-radius: 8px;
+  box-shadow: 8px 8px 18px rgba(0, 0, 0, 0.3);
+}
+.fourth-screen .banner {
+  border-radius: 8px;
+  box-shadow: 8px 8px 18px rgba(0, 0, 0, 0.3);
+}
+.fourth-screen .kindergarden {
+  border-radius: 8px;
+  box-shadow: 8px 8px 18px rgba(0, 0, 0, 0.3);
+  padding-top: 20px;
+}
+.fourth-screen .all-project {
+  text-align: center;
+  margin-top: 50px;
+}
 @media (max-width: 1000px) {
   h1,
   h2 {
