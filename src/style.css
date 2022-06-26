@@ -229,6 +229,65 @@ p {
   text-align: center;
   margin-top: 50px;
 }
+
+.footer {
+  margin-top: 190px;
+  padding-top: 64px;
+  background: var(--color-gradient);
+  color: #fff;
+}
+
+.footer {
+  display: block;
+  margin: 0 auto;
+  margin-top: 190px;
+  text-align: center;
+}
+
+.footer img {
+  width: 30px;
+  height: 30px;
+  margin-top: 18px;
+}
+
+.footer .round {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  text-align: center; /* выравнять текст по середине по горизонтали */
+  background: var(--color-primery);
+}
+
+.footer .socia-icons {
+  margin-top: 32px;
+  margin-left: 135px;
+}
+
+.footer .footer-icon {
+  padding-top: 48px;
+  padding-bottom: 16px;
+}
+
+.footer .menu-icon {
+  padding-bottom: 16px;
+}
+.footer .footer-logo {
+  text-decoration: none;
+  padding-right: 16px;
+  color: var(--color-primery);
+}
+.footer .footer-logo-icon a {
+  text-decoration: none;
+  padding-right: 8px;
+  color: #fff;
+}
+.footer .footer-logo-icon a:hover {
+  color: var(--color-primery);
+}
+.footer .footer-icon-autor {
+  font-size: 14px;
+}
+/*
 @media (max-width: 1000px) {
   h1,
   h2 {
@@ -289,3 +348,4 @@ p {
     font-size: 48px;
   }
 }
+*/
