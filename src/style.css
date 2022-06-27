@@ -57,8 +57,6 @@ p {
   border: 1px solid var(--color-primery);
   border-radius: 4px;
   padding: 8px 16px;
-  display: block;
-  margin: 0 auto;
 }
 .link-navbar:hover {
   color: var(--color-primery);
@@ -206,19 +204,12 @@ p {
   padding-bottom: 40px;
 }
 
-.fourth-screen .sun-app {
-  padding-right: 20px;
+.fourth-screen img {
+  border-radius: 8px;
+  box-shadow: 8px 8px 18px rgba(0, 0, 0, 0.3);
+}
 
-  border-radius: 8px;
-  box-shadow: 8px 8px 18px rgba(0, 0, 0, 0.3);
-}
-.fourth-screen .banner {
-  border-radius: 8px;
-  box-shadow: 8px 8px 18px rgba(0, 0, 0, 0.3);
-}
 .fourth-screen .kindergarden {
-  border-radius: 8px;
-  box-shadow: 8px 8px 18px rgba(0, 0, 0, 0.3);
   padding-top: 20px;
 }
 .fourth-screen .all-project {
@@ -248,13 +239,13 @@ p {
   width: 65px;
   height: 65px;
   border-radius: 50%;
-  text-align: center; /* выравнять текст по середине по горизонтали */
+  text-align: center;
   background: var(--color-primery);
 }
 
 .footer .socia-icons {
   margin-top: 32px;
-  margin-left: 135px;
+  margin-left: 160px;
 }
 
 .footer .footer-icon {
