@@ -141,7 +141,7 @@ p {
   max-width: 520px;
 }
 
-.third-screen .ux-design {
+.third-screen .ui-design {
   margin-right: 10px;
   text-align: center;
   padding: 52px 26px 52px 25px;
@@ -150,7 +150,7 @@ p {
   border-radius: 8px;
 }
 
-.third-screen .ux-design p {
+.third-screen .ui-design .graphic-design p {
   padding-top: 16px;
   max-width: 224px;
 }
@@ -163,11 +163,6 @@ p {
   border-radius: 8px;
 }
 
-.third-screen .graphic-design p {
-  padding-top: 16px;
-  max-width: 242px;
-}
-
 .front-end {
   margin: 20px -12px 0 -12px;
   background: var(--color-gradient);
@@ -177,30 +172,21 @@ p {
 
 .front-end h4 {
   text-align: center;
-  /*padding: 75px 0;*/
-}
-/*.front-end .front-end-group {
-  padding: 32px 0;
-  padding-right: 16px;
-}*/
-.front-end .front-end-group p {
-  text-align: center;
-  font-size: 14px;
-}
-.front-end .front-end-icon {
-  display: flex;
-  flex-direction: column;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 75px 0;
 }
 
-/*.front-end .front-end-icon1,
-.front-end-icon2,
-.front-end-icon3 {
+.front-end .front-end-group p {
+  text-align: center;
+  font-size: 12px;
+}
+
+.front-end .icon-group {
   display: block;
   margin: 0 auto;
   text-align: center;
-}*/
+  padding-top: 24px;
+  padding-right: 8px;
+}
 
 .fourth-screen {
   padding-top: 190px;
@@ -258,9 +244,9 @@ p {
   text-align: center;
 }
 
-.footer .menu-icon {
+/*.footer .menu-icon {
   padding-bottom: 16px;
-}
+}*/
 .footer .footer-logo {
   text-decoration: none;
   padding-right: 16px;
@@ -336,7 +322,42 @@ p {
     line-height: 20px;
   }
   .front-end .front-end-group p {
+    text-align: center;
     font-size: 12px;
+  }
+  .third-screen .progress {
+    max-width: 700px;
+  }
+
+  .footer img {
+    width: 24px;
+    height: 24px;
+    margin-top: 16px;
+  }
+
+  .footer .round {
+    width: 55px;
+    height: 55px;
+    margin-right: 8px;
+  }
+
+  .footer .socia-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 24px 0 40px 0;
+  }
+
+  .footer h3 {
+    font-size: 22px;
+  }
+
+  .footer h2 {
+    font-size: 32px;
+  }
+
+  .footer p {
+    font-size: 14px;
   }
 }
 
