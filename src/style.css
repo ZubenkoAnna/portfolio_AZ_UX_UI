@@ -363,16 +363,15 @@ p {
   p {
     margin-left: 18px;
   }
-
-  /*.section {
-  margin-top: 64px;
-}
-.section .paragraf {
-  margin-bottom: 52px;
-}
-.section img {
-  border-radius: 8px;
-} */
+  .section img {
+    width: 100%;
+  }
+  .section .paragraf p {
+    margin-left: 0;
+  }
+  .section .paragraf {
+    padding-top: 16px;
+  }
 }
 
 @media (max-width: 1000px) {
@@ -405,6 +404,10 @@ p {
     margin: 0 auto;
     text-align: center;
     margin: 8px 0;
+  }
+  .link-portfolio .portfolio-page {
+    display: flex;
+    justify-content: center;
   }
   .second-screen .header-second-screen {
     margin-top: 0;
@@ -450,6 +453,16 @@ p {
 
   .footer p {
     font-size: 14px;
+  }
+  .portfolio {
+    margin-top: 104px;
+  }
+  .section h2,
+  p {
+    text-align: center;
+  }
+  .section h2 {
+    padding-top: 32px;
   }
 }
 
