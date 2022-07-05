@@ -299,6 +299,39 @@ p {
   border-radius: 8px;
 }
 
+.block-contackt-page img {
+  width: 30px;
+  height: 30px;
+  margin-right: 16px;
+  opacity: 80%;
+}
+
+.block-contackt-page p {
+  text-align: left;
+  padding-bottom: 16px;
+  margin: 0;
+}
+
+.block-contackt-page h4 {
+  margin-bottom: 0;
+}
+
+.block-contackt-page .second-line {
+  display: flex;
+  flex-direction: row;
+}
+
+.block-contackt-page .second-line a {
+  text-decoration: none;
+  color: var(--color-text);
+}
+
+.all-contacts {
+  margin-top: 56px;
+  padding: 32px;
+  background-color: #e9e7e7;
+}
+
 @media (max-width: 1200px) {
   h1,
   h2 {
