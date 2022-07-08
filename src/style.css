@@ -69,7 +69,7 @@ a {
 }
 
 .nav-link:hover {
-  color: var(--color-primery) !important;
+  color: #fff !important;
 }
 
 .first-screen {
@@ -672,6 +672,9 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
+  }
+  .front-end .front-end-row {
+    padding-bottom: 16px;
   }
   .footer {
     padding-top: 32px;
