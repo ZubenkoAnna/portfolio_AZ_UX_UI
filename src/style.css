@@ -337,6 +337,14 @@ a {
   background-color: #e9e7e7;
 }
 
+.all-contacts p {
+  font-size: 14px;
+  opacity: 70%;
+}
+.all-contacts h4 {
+  font-size: 18px;
+}
+
 @media (max-width: 1200px) {
   h1,
   h2 {
