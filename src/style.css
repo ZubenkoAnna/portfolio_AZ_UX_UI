@@ -251,7 +251,7 @@ a {
   height: 65px;
   border-radius: 50%;
   background: var(--color-primery);
-  margin-right: 16px;
+  margin: 0 8px;
 }
 
 .footer .socia-icons {
